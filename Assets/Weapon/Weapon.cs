@@ -6,9 +6,7 @@ using System.IO;
 
 public class Weapon : MonoBehaviour
 {
-    public ScriptableObject gunData;
-
-    public weaponData basicData;
+    public testGun1 gunData;
 
     public weaponData runtimeData;
 
@@ -31,9 +29,8 @@ public class Weapon : MonoBehaviour
     //public virtual void Initialize(weaponManager weaponManager)
     public virtual void Initialize(Animator animator)
     {
-        basicData = Instantiate(gunData) as weaponData;
-
-        runtimeData = DeepClone.DeepCopy<weaponData>(basicData);
+        //basicData = Instantiate(gunData) as weaponData;
+        runtimeData = Factory.ConvertScriptableObject(gunData);
         this.animator = animator;
         accessoryManager = GetComponent<AccessoryManager>();
         this.gameObject.SetActive(false);

@@ -62,7 +62,7 @@ public class weaponManager : MonoBehaviour
     public void Update()
     {
         
-        if (currentWeapon.runtimeData.gunType == GunType.semi && currentWeapon.runtimeData.gunType == GunType.burst)
+        if (currentWeapon.runtimeData.gunType == GunType.semi || currentWeapon.runtimeData.gunType == GunType.burst)
         {
             if (Input.GetMouseButtonDown(0))
                 GunFire();

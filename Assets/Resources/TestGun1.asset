@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0257e69e73ebe4fa5b784345ecba39, type: 3}
   m_Name: TestGun1
   m_EditorClassIdentifier: 
-  weaponName: Test
-  capacity: 0
+  weaponName: TestWeaponAuto
+  capacity: 30
   currentAmmo: 0
-  ammunition: 0
-  intervalTime: 0
+  ammunition: 120
+  intervalTime: 0.3
   gunType: 0
   swapMode: 0

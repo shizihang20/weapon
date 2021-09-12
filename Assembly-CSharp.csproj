@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Weapon\weaponData.cs" />
     <Compile Include="Assets\Accessory\AccessoryData.cs" />
-    <Compile Include="Assets\DeepClone.cs" />
+    <Compile Include="Assets\Factory.cs" />
     <Compile Include="Assets\Weapon\Weapon.cs" />
     <Compile Include="Assets\Accessory\Accessory.cs" />
     <Compile Include="Assets\Accessory\AccessoryManager.cs" />

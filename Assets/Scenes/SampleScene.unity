@@ -621,6 +621,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7688414892836275240, guid: 617dd03f7b0957640a300a89477c5a83, type: 3}
+      propertyPath: gunData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9644845f5c8647a49965dc76a8aa7c26, type: 2}
+    - target: {fileID: 7688414892836275240, guid: 617dd03f7b0957640a300a89477c5a83, type: 3}
       propertyPath: basicData.gunType
       value: 1
       objectReference: {fileID: 0}
@@ -680,15 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abcb93e6040f1214ea46ba4120eb9c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunData: {fileID: 11400000, guid: ca48051c82e55144988e03d1f7f57f6b, type: 2}
-  basicData:
-    weaponName: test weapon1
-    capacity: 30
-    currentAmmo: 30
-    ammunition: 120
-    intervalTime: 0.4
-    gunType: 0
-    swapMode: 0
+  gunData: {fileID: 11400000, guid: 78bfdc68620861e408bbd372efc72843, type: 2}
   runtimeData:
     weaponName: 
     capacity: 0
